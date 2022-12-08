@@ -8,6 +8,6 @@ export default {
   component: HomeTemplate,
 } as ComponentMeta<typeof HomeTemplate>;
 
-const Template: ComponentStory<typeof HomeTemplate> = () => <HomeTemplate />;
+const Template: ComponentStory<typeof HomeTemplate> = (args) => <HomeTemplate {...args} />;
 
 export const Default = Template.bind({});
