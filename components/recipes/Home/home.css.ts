@@ -2,13 +2,11 @@ import { style } from '@vanilla-extract/css';
 import { defaultTheme } from '../../../styles/theme.css';
 
 const container = style({
-  background: defaultTheme.color.backgroundColor,
   minHeight: '100dvh',
-  fontFamily: 'Grandstander',
 });
 
 const wrapper = style({
-  padding: '0 2em',
+  // padding: '0 2em',
 });
 
 const homeTitle = style({

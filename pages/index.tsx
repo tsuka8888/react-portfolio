@@ -1,7 +1,5 @@
-import '@fontsource/grandstander';
+import { Home } from '../components/recipes/Home/Home';
 
-import { HomeContainer } from '../components/recipes/Home/HomeContainer';
-
-export default function Home() {
-  return <HomeContainer />;
+export default function Top() {
+  return <Home />;
 }
