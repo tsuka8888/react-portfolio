@@ -1,3 +1,5 @@
+@import './variables.scss';
+
 #home {
   min-height: 100dvh;
   position: absolute;
@@ -29,13 +31,23 @@
 
     &-contents {
       margin: 200dvh 10% 0;
+      display: flex;
+      flex-direction: column;
+      gap: 10rem;
+      margin-bottom: 10rem;
     }
 
     &-item {
       background-color: #fff;
-      outline: 2px solid #333;
+      outline: 2px solid $COLOR_PRIMARY;
       outline-offset: -10px;
-      padding: 5rem;
+      padding: 5rem 5rem 10rem;
+      font-size: 1rem;
+      line-height: 1.5;
+
+      .title {
+        margin-bottom: 3rem;
+      }
     }
   }
 }

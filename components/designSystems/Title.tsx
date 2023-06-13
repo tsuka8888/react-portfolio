@@ -1,10 +1,13 @@
 import { ReactNode } from 'react';
 
 interface TitleProps {
-  children: ReactNode;
-  variant?: 'small' | 'medium' | 'large';
+  title: string
+  subTitle: string
 }
 
-export const Title = ({ children, variant = 'small' }: TitleProps) => (
-  <p className={`title ${variant}`}>{children}</p>
+export const Title = ({ title, subTitle }: TitleProps) => (
+  <div className="title">
+      <h2>{title}</h2>
+      <p>{subTitle}</p>
+    </div>
 );

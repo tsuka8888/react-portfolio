@@ -38,8 +38,19 @@ body {
   line-height: 1.2;
 
   h2 {
-    color: #59719a;
+    color: $COLOR_PRIMARY;
     font-size: 3rem;
     font-weight: 700;
   }
+}
+
+.sub-title {
+  font-weight: 700;
+  color: $COLOR_PRIMARY;
+}
+
+input {
+  border: 1px solid #555;
+  padding:0.6rem;
+  border-radius: 5px;
 }
