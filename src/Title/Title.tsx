@@ -11,7 +11,7 @@ function Title() {
         </div>
       </div>
       <div className="title-right">
-        <img src={TitleSrc} alt="" />
+        <img src={TitleSrc} alt="" className="title-img"/>
       </div>
     </section>
   );
