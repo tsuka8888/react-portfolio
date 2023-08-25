@@ -1,0 +1,39 @@
+body {
+  color: #555;
+}
+
+#title {
+  display: flex;
+  height: 100dvh;
+
+  .title {
+    &-left {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 2em;
+      .portfolio {
+        position: absolute;
+        top: 20%;
+      }
+      .name {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.4em;
+      }
+      .large {
+        font-size: 2.4em;
+      }
+      .small {
+        font-size: 1.5em;
+      }
+    }
+    &-right {
+      width: 50%;
+    }
+  }
+}
