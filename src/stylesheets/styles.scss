@@ -1,5 +1,10 @@
 body {
-  color: #555;
+  font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+  color: #777;
+}
+
+.font-large {
+  font-size: 2rem;
 }
 
 #title {
@@ -48,9 +53,23 @@ body {
 }
 
 #about {
-  padding: 10rem;
+  padding: 10%;
+  display: flex;
+  justify-content: center;
 
   .about {
+    &-wrapper {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      gap: 3rem;
+      width: 1000px;
+    }
+
+    // &-title {
+    //   margin-bottom: 1rem;
+    // }
+
     &-name {
       display: flex;
       align-items: center;
@@ -64,6 +83,18 @@ body {
       img {
         width: 14em;
         height: 14em;
+      }
+    }
+
+    &-table {
+      &-item {
+        display: flex;
+        align-items: flex-start;
+
+        dt {
+          min-width: 6rem;
+          font-weight: 700;
+        }
       }
     }
   }
