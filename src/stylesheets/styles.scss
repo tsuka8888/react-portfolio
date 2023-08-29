@@ -7,13 +7,13 @@ body {
   height: 100dvh;
 
   .title {
-    &-left {
-      width: 50%;
+    &-wrapper {
+      width: 100%;
       display: flex;
-      flex-direction: column;
       justify-content: center;
       align-items: center;
-      gap: 2em;
+      gap: 4em;
+
       .portfolio {
         position: absolute;
         top: 20%;
@@ -22,7 +22,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        // align-items: center;
         gap: 0.4em;
       }
       .large {
@@ -30,6 +30,10 @@ body {
       }
       .small {
         font-size: 1.5em;
+      }
+      .icon {
+        width: 200px;
+        height: 200px;
       }
     }
     &-right {
