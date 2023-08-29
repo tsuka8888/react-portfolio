@@ -1,7 +1,13 @@
-import Title from "../Title/Title";
+import Title from "./Title/Title";
+import About from "./About/About";
 
 function Top() {
-  return <Title />;
+  return (
+    <>
+      <Title />
+      <About />
+    </>
+  );
 }
 
 export default Top;

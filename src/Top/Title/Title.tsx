@@ -1,4 +1,4 @@
-import TitleSrc from "../assets/title.jpg";
+import TitleSrc from "../../assets/title.jpg";
 
 function Title() {
   return (

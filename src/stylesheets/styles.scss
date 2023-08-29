@@ -42,3 +42,25 @@ body {
     }
   }
 }
+
+#about {
+  padding: 10rem;
+
+  .about {
+    &-name {
+      display: flex;
+      align-items: center;
+      gap: 2em;
+      margin-bottom: 3em;
+
+      .large {
+        font-size: 2em;
+      }
+
+      img {
+        width: 14em;
+        height: 14em;
+      }
+    }
+  }
+}
